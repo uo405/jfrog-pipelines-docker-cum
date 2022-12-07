@@ -13,7 +13,7 @@ resources:
       registry: Artifactory_Integration_Docker                                # <-- replace with your artifactory integration
       sourceRepository: docker-local               # <-- required if registry is Artifactory
       imageName: cumminspoc.jfrog.io/ui/native/docker-local/dbp  # < -- replace with your image path and name
-      imageTag: latest
+      imageTag: /latest
       autoPull: true
       
   - name: dbp_build_info
