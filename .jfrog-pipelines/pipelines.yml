@@ -32,7 +32,7 @@ resources:
       
 
 pipelines:
-  - name: pipeline_dbp
+  - name: demo_pipeline_build
     steps:
       - name: docker_build
         type: DockerBuild
